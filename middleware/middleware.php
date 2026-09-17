@@ -6,7 +6,7 @@ function middleware($rota){
 
     if ($permitido){
         echo "4. Middleware permitiu continuar.<br>";
-        dispacter($rota);
+        dispatcher($rota);
 
 
     } else {
